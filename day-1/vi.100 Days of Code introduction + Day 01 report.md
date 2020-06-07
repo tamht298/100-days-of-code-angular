@@ -1,5 +1,5 @@
 # 100 Days of Code Angular
-
+![Background for day 1][bg-url]
 ## GIỚI THIỆU
 
 Trong vài năm trở lại đây, Angular đã có nhiều cải tiến mới, cả về **feature** và **performance**. Càng ngày càng có nhiều công ty/tổ chức, dự án sử dụng Angular để phát triển các sản phẩm giàu tính tương tác. Mình nhận thấy đây là thời điểm thích hợp để khởi động một series để các bạn có động lực học code Angular, do đó series **100 Days of Code Angular** đã ra đời.
@@ -81,3 +81,4 @@ Link reference post: [here](https://facebook.com/groups/AngularVietnam/permalink
 [eslint-url]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [nxconsole-url]: https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console
 [group-fb-url]: https://www.facebook.com/groups/AngularVietnam
+[bg-url]: https://github.com/tamht298/100DaysOfCodeAngular/blob/master/day-1/day-1.png
