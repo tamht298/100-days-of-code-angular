@@ -64,8 +64,9 @@ Sau khi serve thành công các bạn có thể mở trình duyệt và navigate
 `100DaysOfCodeAngular` `100DaysOfCode`
 
 # Link tham khảo
-https://angular.io/guide/setup-local
-https://angular.io/tutorial/toh-pt0
+- https://angular.io/guide/setup-local
+
+- https://angular.io/tutorial/toh-pt0
 
 Link reference post: [here](https://facebook.com/groups/AngularVietnam/permalink/889856741513178/)
 
