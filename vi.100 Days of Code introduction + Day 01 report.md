@@ -1,5 +1,7 @@
 #100 Days of Code Angular
+
 ##GIỚI THIỆU
+
 Trong vài năm trở lại đây, Angular đã có nhiều cải tiến mới, cả về **feature** và **performance**. Càng ngày càng có nhiều công ty/tổ chức, dự án sử dụng Angular để phát triển các sản phẩm giàu tính tương tác. Mình nhận thấy đây là thời điểm thích hợp để khởi động một series để các bạn có động lực học code Angular, do đó series **100 Days of Code Angular** đã ra đời.
 Mục tiêu của series là mang đến cơ hội để thử thách bản thân các bạn trong một quá trình liên tục, với mong muốn sau khi kết thúc 100 ngày thì các bạn có kiến thức nền tảng để phát triển dự án bằng Angular.
 ###CHUẨN BỊ
