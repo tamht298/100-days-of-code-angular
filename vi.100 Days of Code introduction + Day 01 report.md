@@ -1,14 +1,14 @@
-#100 Days of Code Angular
+# 100 Days of Code Angular
 
-##GIỚI THIỆU
+## GIỚI THIỆU
 
 Trong vài năm trở lại đây, Angular đã có nhiều cải tiến mới, cả về **feature** và **performance**. Càng ngày càng có nhiều công ty/tổ chức, dự án sử dụng Angular để phát triển các sản phẩm giàu tính tương tác. Mình nhận thấy đây là thời điểm thích hợp để khởi động một series để các bạn có động lực học code Angular, do đó series **100 Days of Code Angular** đã ra đời.
 Mục tiêu của series là mang đến cơ hội để thử thách bản thân các bạn trong một quá trình liên tục, với mong muốn sau khi kết thúc 100 ngày thì các bạn có kiến thức nền tảng để phát triển dự án bằng Angular.
-###CHUẨN BỊ
+### CHUẨN BỊ
 Để chuẩn bị cho chặng đường phía trước, chúng ta cần một số thứ như sau:
 - *IDE/Editor*: các bạn có thể dùng những công cụ mà các bạn thấy quen thuộc, hoặc sử dụng một số công cụ như [Visual Studio Code (VS Code)][vscode-url], [WebStorm][webstorm-url] để support code tốt hơn.
 - Nếu bạn sử dụng *VS Code* thì nên cài đặt thêm 1 số extension để support trong quá trình code như: [Angular Language Service][angular-language-service-url], [EditorConfig for VS Code][editorconfig-url], [ESLint][eslint-url]/[TSLint][tslint-url], [Nx Console (optional)][nxconsole-url]
-###TIẾN HÀNH
+### TIẾN HÀNH
 > *NODEJS*
 
 Đầu tiên các bạn vào trang [Nodejs](https://nodejs.org/en/download/) để tải về Nodejs và cài đặt vào máy. Các bạn có thể tải về bản **Long Term Support (LTS)** hoặc **Current** đều được. Hiện tại bản **LTS** mới nhất là **version 12**, với **Angular version 9** thì đã hoàn toàn phù hợp rồi.
@@ -31,7 +31,7 @@ Lưu ý:
 - Một số bạn sử dụng Windows có thể phải cài đặt thêm Python hoặc windows-build-tools để có thể sử dụng SCSS ở trong project sắp tới.
 - Nếu các bạn không thể chạy `ng version` vì nó báo ` 'ng' is not recognized as an internal or external command.` thì các bạn cần phải thêm npm global vào PATH.
 - Một số bạn sử dụng PowerShell có thể bị báo ``` File C:\Users\< username >\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.``` thì các bạn cần phải enable policy để chạy được command. Để enable các bạn mở Powershell as Administrator và chạy lệnh này `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine` hoặc mở link ở thông báo lỗi để tìm hiểu thêm.
-###KHỞI TẠO DỰ ÁN
+### KHỞI TẠO DỰ ÁN
 Sau khi mọi thứ đã xong xuôi thì bạn có thể khởi tạo dự án được rồi. Bạn mở Terminal và chạy lệnh:
 `ng new <tên-project>`
 
@@ -63,7 +63,7 @@ Sau khi serve thành công các bạn có thể mở trình duyệt và navigate
 
 `#100DaysOfCodeAngular` `#100DaysOfCode`
 
-#Link tham khảo
+# Link tham khảo
 https://angular.io/guide/setup-local
 https://angular.io/tutorial/toh-pt0
 
