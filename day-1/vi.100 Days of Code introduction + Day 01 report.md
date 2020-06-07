@@ -9,7 +9,7 @@ Mục tiêu của series là mang đến cơ hội để thử thách bản thâ
 - *IDE/Editor*: các bạn có thể dùng những công cụ mà các bạn thấy quen thuộc, hoặc sử dụng một số công cụ như [Visual Studio Code (VS Code)][vscode-url], [WebStorm][webstorm-url] để support code tốt hơn.
 - Nếu bạn sử dụng *VS Code* thì nên cài đặt thêm 1 số extension để support trong quá trình code như: [Angular Language Service][angular-language-service-url], [EditorConfig for VS Code][editorconfig-url], [ESLint][eslint-url]/[TSLint][tslint-url], [Nx Console (optional)][nxconsole-url]
 ### TIẾN HÀNH
-> *NODEJS*
+> **NODEJS**
 
 Đầu tiên các bạn vào trang [Nodejs](https://nodejs.org/en/download/) để tải về Nodejs và cài đặt vào máy. Các bạn có thể tải về bản **Long Term Support (LTS)** hoặc **Current** đều được. Hiện tại bản **LTS** mới nhất là **version 12**, với **Angular version 9** thì đã hoàn toàn phù hợp rồi.
 Đối với các bạn nào quen thuộc với **terminal** thì mình khuyến cáo sử dụng **NVM** để **cài đặt và quản lý nhiều phiên bản Nodejs** trên cùng 1 máy. Như thế các bạn sẽ linh động khi làm việc với nhiều dự án khác nhau, có đòi hỏi khác nhau về **version của Nodejs**.
@@ -18,7 +18,7 @@ Sau khi cài đặt thành công các bạn có thể verify lại bằng cách 
 node -v
 npm -v
 ```
-> *ANGULAR CLI*
+> **ANGULAR CLI**
 
 Để phát triển một dự án Angular, chúng ta sẽ sử dụng đến công cụ chính thức từ team Angular đó là Angular CLI, (nó là một tool chạy các lệnh từ Terminal), và chúng ta sẽ cài đặt thông qua NPM bằng câu lệnh sau:
 `npm install -g @angular/cli@latest`
@@ -61,7 +61,7 @@ Sau khi serve thành công các bạn có thể mở trình duyệt và navigate
 
 > Như vậy, chúng ta đã hoàn thành ngày đầu tiên tìm hiểu Angular. Hẹn gặp lại trong các ngày tiếp theo.
 
-`100DaysOfCodeAngular` `100DaysOfCode`
+***`#100DaysOfCodeAngular`*** ***`#100DaysOfCode`***
 
 # Link tham khảo
 - https://angular.io/guide/setup-local
