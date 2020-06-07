@@ -61,7 +61,7 @@ Sau khi serve thành công các bạn có thể mở trình duyệt và navigate
 
 > Như vậy, chúng ta đã hoàn thành ngày đầu tiên tìm hiểu Angular. Hẹn gặp lại trong các ngày tiếp theo.
 
-`#100DaysOfCodeAngular` `#100DaysOfCode`
+`100DaysOfCodeAngular` `100DaysOfCode`
 
 # Link tham khảo
 https://angular.io/guide/setup-local
