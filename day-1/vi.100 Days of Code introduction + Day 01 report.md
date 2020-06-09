@@ -68,7 +68,6 @@ Sau khi serve thành công các bạn có thể mở trình duyệt và navigate
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-HASHTAG
 ***`#100DaysOfCodeAngular`*** ***`#100DaysOfCode`***
 
 # Link tham khảo
@@ -89,4 +88,5 @@ Link reference post: [here](https://facebook.com/groups/AngularVietnam/permalink
 [eslint-url]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [nxconsole-url]: https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console
 [group-fb-url]: https://www.facebook.com/groups/AngularVietnam
-[bg-url]: https://github.com/tamht298/100DaysOfCodeAngular/blob/master/day-1/background%20day-1.png
+[bg-url]: https://github.com/tamht298/100DaysOfCodeAngular/blob/d-1/day-1/bg-day01.png
+
