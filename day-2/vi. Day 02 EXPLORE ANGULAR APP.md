@@ -79,9 +79,10 @@ That's all for today.
 Các bạn hãy thử tìm hiểu cấu trúc ứng dụng và tạo thêm nhiều component nữa nào.
 ### SUMMARY
 Link document các bạn cần tìm hiểu trong Day 2
-https://angular.io/guide/architecture
-https://angular.io/guide/architecture-modules
-https://angular.io/guide/architecture-components
+
+- https://angular.io/guide/architecture
+- https://angular.io/guide/architecture-modules
+- https://angular.io/guide/architecture-components
 
 #### Mục tiêu Day 3 sẽ là về data binding.
 
