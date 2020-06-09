@@ -1,4 +1,5 @@
 # 100 Days of Code Angular Day 2
+![Background for Day 2][bg-url]
 ### EXPLORE ANGULAR APP
 Từ project được generate bởi **Angular CLI** chúng ta có thể thấy được trong đó có khá nhiều các file/folder, vậy application của chúng ta bắt đầu từ đâu.
 
@@ -94,3 +95,4 @@ Link reference post: [here][post-url]
 <!-- Markdown link & img dfn's -->
 [post-url]: https://www.facebook.com/groups/AngularVietnam/permalink/890671434765042/
 [ts-url]: https://www.typescriptlang.org/
+[bg-url]: https://github.com/tamht298/100DaysOfCodeAngular/blob/d-2/day-2/day-02.png
