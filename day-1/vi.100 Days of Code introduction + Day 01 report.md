@@ -61,6 +61,16 @@ Sau khi serve thành công các bạn có thể mở trình duyệt và navigate
 
 > Như vậy, chúng ta đã hoàn thành ngày đầu tiên tìm hiểu Angular. Hẹn gặp lại trong các ngày tiếp theo.
 
+## Contributing
+
+1. Fork it (<https://github.com/tamht298/100DaysOfCodeAngular/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -m 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+HASHTAG
+
 ***`#100DaysOfCodeAngular`*** ***`#100DaysOfCode`***
 
 # Link tham khảo
