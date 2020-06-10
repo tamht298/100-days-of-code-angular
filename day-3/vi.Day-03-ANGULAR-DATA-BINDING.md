@@ -18,16 +18,16 @@ import { Component } from '@angular/core';
 @Component({
 selector: 'app-hello',
 template: `
-<h2>Hello there!</h2>
-<h3>Your name: {{ user.name }}</h3>
-<p>Your name: {{ user.age }}</p>
+    <h2>Hello there!</h2>
+    <h3>Your name: {{ user.name }}</h3>
+    <p>Your name: {{ user.age }}</p>
 `
 })
 export class HelloComponent {
-user= {
-name: 'Tam Huynh',
-age: 30
-};
+    user= {
+        name: 'Tam Huynh',
+        age: 30
+    };
 }
 ```
 ### PROPERTY BINDING
@@ -41,10 +41,10 @@ Giả sử khi bạn có phần HTML:
 Sau khi parse xong sẽ có một object (node) thuộc type **HTMLInputElement** được tạo ra. Ở đây `type="text"` hay `value="something"` là các HTML attribute. Mỗi tag HTML có thể có nhiều attribute khác nữa (xin mời bạn Search Google). Object được tạo tương ứng sẽ có dạng
 ```js
 obj = {
-type: 'text',
-value: 'something',
-attributes: [] // thuộc type NamedNodeMap, dạng như một array
-// … các thuộc tính, method khác
+    type: 'text',
+    value: 'something',
+    attributes: [] // thuộc type NamedNodeMap, dạng như một array
+    // … các thuộc tính, method khác
 }
 ```
 
@@ -75,14 +75,14 @@ Câu trả lời chính là **Event binding**. Để gắn event listener vào m
 @Component({
 selector: 'app-hello',
 template: `
-<h2>Hello there!</h2>
-<button (click)="showInfo()">Click me!</button>
+    <h2>Hello there!</h2>
+    <button (click)="showInfo()">Click me!</button>
 `
 })
 export class HelloComponent {
-showInfo() {
-alert('Inside Angular Component method');
-}
+    showInfo() {
+        alert('Inside Angular Component method');
+    }
 }
 ```
 Chỉ là lúc này chúng ta sẽ trỏ đến method bên trong Component.
