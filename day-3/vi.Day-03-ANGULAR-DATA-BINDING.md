@@ -26,7 +26,7 @@ template: `
 export class HelloComponent {
     user= {
         name: 'Tam Huynh',
-        age: 30
+        age: 22
     };
 }
 ```
