@@ -1,0 +1,38 @@
+<div style="display: flex; justify-content: space-around; align-items: center">
+  <div>
+    <h2>Hello there!</h2>
+    <h3>Your name: {{ user.name }}</h3>
+    <p>Your name: {{ user.age }}</p>
+
+    <p>Enter to your personal information</p>
+    <div>
+      <label>Name </label><input type="text" [(ngModel)]="user.name" >
+    </div>
+    <br>
+    <div>
+      <label>Age </label><input type="number" [(ngModel)]="user.age" >
+    </div>
+    <br>
+    <button (click)="showInfo()">Click me!</button>
+  </div>
+
+  <div>
+    <h2 style="text-align:center">User Profile Card</h2>
+
+    <div class="card">
+      <img src="/assets/team2.jpg" alt="John" style="width:100%">
+      <h1>{{user.name}} - {{user.age}} years old</h1>
+      <p class="title">CEO & Founder, Example</p>
+      <p>Harvard University</p>
+      <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+      </div>
+      <p><button>Contact</button></p>
+    </div>
+  </div>
+</div>
+
+
