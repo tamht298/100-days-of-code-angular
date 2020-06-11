@@ -1,9 +1,9 @@
 # 100 Days of Code Angular Day 4
 ![Background for day 4][bg-url]
 ## ANGULAR STRUCTURE DIRECTIVE
-In programing, we need to depend on conditions to make the corresponding decision. Assume that we're developing the online video-watching application which requires the user must be older than 13 years old to watch them. Well, How to help the users know how to they ar egliable to watch them? In case that, we can now use the IF_ELSE that Angular provides to meet that requirements. 
+In programming, we need to depend on conditions to make the corresponding decision. Assume that we're developing the online video-watching application, which requires the user must be older than 13 years old to watch them. Well, How to help the users know how to they are egliable to watch them? In case that we can now use the IF_ELSE that Angular provides to meet those requirements. 
 
-With Angular application, if you want to update or change the structure (etc structure HTML) in view's component, we'll use **Structure Directive**.
+With Angular application, if you want to update or change the structure (etc. structure HTML) in view's component, we'll use **Structure Directive**.
 
 ### IF-ELSE STRUCTURE
 To display partial's view with a condition, we'll put on the tag with a property, which contains * (_asterisk_) such as `*ngIf="expression"`:
@@ -20,7 +20,7 @@ template: `
     </div>
 `
 })
-	
+    
 export class HelloComponent {
     user= {
         name: 'Tam Huynh',
@@ -30,9 +30,9 @@ export class HelloComponent {
 ```
 Ok, we now can display view depending on the data with the value that the expression returns. Displays if **Truthy**, **Falsy** doesn't.
 
-With the Angular's built-in directive, the component's httml template is very flexible.
+With the Angular's built-in directive, the component's HTML template is very flexible.
 
-So what if we want to use **IF-ELSE**. How we do it! Maybe you'll think about the negative statement of IF statement? Right, it's completely.
+So what if we want to use **IF-ELSE**. How we do it? Maybe you'll think about the negative statement of the IF statement? Right, it's ultimately.
 
 ```angular2html
 <div *ngIf="user.age >= 13">
@@ -42,7 +42,7 @@ So what if we want to use **IF-ELSE**. How we do it! Maybe you'll think about th
     You are NOT egliable to watch the content of PG-13
 </div>
 ```
-In others hand, we have another good way, which is to use **ng-template**. **ng-template** tag is a tag provided by Angular, it contains the template defined within it's opening/closing tag. What's defined template within it won't be shown to view but we can use the template to render by code. The above block code can be converted equivalent:
+On the other hand, we have another good way, which is to use **ng-template**. **ng-template** tag is a tag provided by Angular, and it contains the template defined within its opening/closing tag. What's defined template within it won't be shown to view, but we can use the template to render by code. The equivalent converting code is:
  
 ```angular2html
 <div *ngIf="user.age >= 13; else noPG13">
@@ -55,7 +55,7 @@ In others hand, we have another good way, which is to use **ng-template**. **ng-
 </ng-template>
 ```
 ### NG-TEMPLATE
-With the syntax that uses with * (_asterisk_), you feel probably confused but in fact, it is called **Syntactic sugar** (	help you be easier to read more and more easily). You can convert it to property binding such as:
+With the syntax that uses with * (_asterisk_), you feel probably confused but in fact, it is called **Syntactic sugar** (    help you be easier to read more and more easily). You can convert it to property binding such as:
 
 ```angular2html
 <ng-template [ngIf]="user.age >= 13" [ngIfElse]="noPG13">
@@ -65,7 +65,7 @@ With the syntax that uses with * (_asterisk_), you feel probably confused but in
 </ng-template>
 ```
 ## SUMMARY
-In the day 4, we need to understand how to use the structure of ngIf-else. In addition to the above ways, Angular also provides the way to use **ngIf - then - else**, you can learn more at the below links.
+On day 4, we need to understand how to use the structure of ngIf-else. In addition to the above ways, Angular also provides the way to use **ngIf - then - else**, you can learn more at the below links.
 
 Link document for day 4
 - https://angular.io/guide/structural-directives
