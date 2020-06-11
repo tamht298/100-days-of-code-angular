@@ -21,8 +21,8 @@ template: `
 })
 export class HelloComponent {
     user= {
-        name: 'Tiep Phan',
-        age: 30
+        name: 'Tam Huynh',
+        age: 22
     };
 }
 ```
