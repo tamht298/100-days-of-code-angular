@@ -81,6 +81,8 @@ Link document for day 4
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
+**If you can, please translate docs with your native language.  Thanks for your great contributing**
+
 HASHTAG
 
 ***`#100DaysOfCodeAngular`*** ***`#100DaysOfCode`*** ***`#AngularVietNam100DoC_Day4`***
