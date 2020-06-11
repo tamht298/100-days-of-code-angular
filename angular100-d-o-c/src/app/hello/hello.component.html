@@ -13,6 +13,21 @@
       <label>Age </label><input type="number" [(ngModel)]="user.age" >
     </div>
     <br>
+<!--    <div *ngIf="user.age >= 13">-->
+<!--      Bạn có thể xem nội dung PG-13-->
+<!--    </div>-->
+<!--    <div *ngIf="user.age < 13">-->
+<!--      Bạn không thể xem nội dung PG-13-->
+<!--    </div>-->
+    <div *ngIf="user.age >= 13; else noPG13">
+      You are egliable to watch the content of PG-13
+    </div>
+    <ng-template #noPG13>
+      <div>
+        You are NOT egliable to watch the content of PG-13
+      </div>
+    </ng-template>
+    <br>
     <button (click)="showInfo()">Click me!</button>
   </div>
 
