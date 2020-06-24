@@ -41,7 +41,7 @@ Như thế là chúng ta có thể sử dụng được `ngModel` ở template, 
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Tiep Phan';
+  name = 'Tam Huynh';
 }
 ```
 
@@ -162,7 +162,7 @@ Chỉ với việc sử dụng suffix `change` cho property `checked` chúng ta 
 ```html
 <app-toggle [(checked)]="checked"></app-toggle>
 ```
-![Toggle](assets/100doc-day9.gif)
+![Toggle](./demo.gif)
 
 
 ## SUMMARY
@@ -196,9 +196,7 @@ Mục tiêu của Day 10 là Template variable và ViewChild/ViewChildren.
 
 HASHTAG
 
-***`#100DaysOfCodeAngular`*** ***`#100DaysOfCode`*** ***`#AngularVietNam100DoC_Day7`***
-
-Link reference post: [here][post-url]
+***`#100DaysOfCodeAngular`*** ***`#100DaysOfCode`*** ***`#AngularVietNam100DoC_Day9`***
 
 ## Author
 
